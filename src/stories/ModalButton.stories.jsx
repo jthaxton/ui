@@ -3,6 +3,8 @@
 import React from 'react';
 import ModalButton from './ModalButton';
 import Typography from '@mui/material/Typography';
+import { ThemeProvider } from "@mui/material";
+import Theme from './theme';
 
 export default {
   title: 'Molecules/ModalButton',
@@ -20,6 +22,8 @@ export const Playground = ({ ...args }) => {
         label,
     } = args;
   return (
+    <ThemeProvider theme={Theme}>
+
     <ModalButton label={label} showCancelButton={showCancelButton}>
         <Typography id="modal-modal-title" variant="h6" component="h2">
         Text in a modal
@@ -29,5 +33,6 @@ export const Playground = ({ ...args }) => {
         </Typography>
         
     </ModalButton>
+    </ThemeProvider>
   );
 };
