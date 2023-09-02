@@ -11,8 +11,7 @@ export default {
   args: {
     showCancelButton: false,
     label: 'Show Modal'
-  }
-
+  },
 };
 
 export const Playground = ({ ...args }) => {
