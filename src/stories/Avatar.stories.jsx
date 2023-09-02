@@ -3,7 +3,7 @@ import React from 'react';
 import Avatar from './Avatar';
 // import avatar from './static/1517373869199.jpg'
 export default {
-  title: 'Avatar',
+  title: 'Atoms/Avatar',
   component: Avatar,
   tags: ['autodocs'],
   args: {

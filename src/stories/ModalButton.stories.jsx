@@ -5,7 +5,7 @@ import ModalButton from './ModalButton';
 import Typography from '@mui/material/Typography';
 
 export default {
-  title: 'ModalButton',
+  title: 'Molecules/ModalButton',
   component: ModalButton,
   tags: ['autodocs'],
   args: {

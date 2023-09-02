@@ -8,7 +8,7 @@ import PageContext from "./PageContext";
 
 
 export default {
-  title: 'PageWrapper',
+  title: 'Atoms/PageWrapper',
   component: PageWrapper,
   argTypes: {
     kind: { control: 'select', 

@@ -2,7 +2,7 @@
 import React from 'react';
 import Post from './Post';
 export default {
-  title: 'Post',
+  title: 'Molecules/Post',
   component: Post,
   tags: ['autodocs'],
   args: {
